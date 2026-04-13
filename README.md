@@ -19,6 +19,7 @@ API REST para gerenciamento de clientees, desenvolvida como parte de um sistema 
 ## 📋 Índice
 
 - [Visão Geral](#-visão-geral)
+- [Deploy](#-deploy)
 - [Tecnologias Utilizadas](#-tecnologias-utilizadas)
 - [Modelagem de Dados](#-modelagem-de-dados)
 - [Estrutura do Projeto](#-estrutura-do-projeto)
@@ -45,6 +46,20 @@ A solução oferece:
 - **Validações automáticas** de formato de CPF, e-mail, telefone e data de nascimento
 - **Documentação interativa** via Swagger UI para consumo pelos demais grupos
 - **Tratamento padronizado de erros** com respostas estruturadas em JSON
+
+---
+
+## 🚀 Deploy
+
+A API está disponível em produção via [Render](https://render.com):
+
+| Recurso | URL |
+|---|---|
+| 📡 Base URL | https://consumer-api-vuxo.onrender.com |
+| 📖 Swagger UI | https://consumer-api-vuxo.onrender.com/swagger-ui/index.html |
+| 📄 OpenAPI JSON | https://consumer-api-vuxo.onrender.com/v3/api-docs |
+
+> ⚠️ O serviço utiliza o plano gratuito do Render. Após período de inatividade, a primeira requisição pode levar até **50 segundos** para responder enquanto o servidor inicializa.
 
 ---
 
